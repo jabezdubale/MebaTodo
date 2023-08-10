@@ -1,8 +1,5 @@
-# React + Vite
+# Meba Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Application is a todo app which users can use by logging in to their account by using their username and password.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application is created using React with jsx and scss. As a starting point the backend is created using Xano no code platform.
