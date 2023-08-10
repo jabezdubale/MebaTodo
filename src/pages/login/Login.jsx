@@ -5,9 +5,7 @@ import rightellipse3 from "../../assets/Login/login_Ellipse3.png";
 import topellipse from "../../assets/Login/login_curve1.png";
 import bottomellipse from "../../assets/Login/login_curve2.png";
 import laptop from "../../assets/Login/loginWorktable.png";
-import logo from "../../assets/Login/mebalogo.png";
-import firstLine from "../../assets/Login/firstLine.png";
-import secondLine from "../../assets/Login/secondLine.png";
+import logo from "../../assets/Login/Mebalogo.png";
 
 const Login = () => {
   return (
