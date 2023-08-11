@@ -9,11 +9,8 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  height: 100%;
+  min-height: 100vh;
 
   .wrapper {
     z-index: 1;
@@ -53,10 +50,18 @@
           height: 23.73%;
           border: none;
           font-size: 0.6rem;
+          color: #3133b6;
+          padding-left: 3%;
 
           &::placeholder {
             color: #3133b6;
-            padding-left: 3%;
+          }
+          &:focus {
+            outline: none;
+
+            &::placeholder {
+              color: transparent;
+            }
           }
         }
 
@@ -126,31 +131,31 @@
     grid-area: 1 / 1 / span 12 / span 12;
 
     .leftEllipse {
-      position: absolute;
+      position: fixed;
       top: 10%;
       left: 0;
       width: 6%;
     }
     .leftEllipse2 {
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       width: 16.5%;
     }
     .rightEllipse3 {
-      position: absolute;
+      position: fixed;
       bottom: 0;
       right: 0;
       width: 13%;
     }
     .topellipse {
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       width: 21%;
     }
     .bottomellipse {
-      position: absolute;
+      position: fixed;
       bottom: 0;
       right: 0;
       width: 17.5%;
@@ -166,6 +171,7 @@
   .login {
     .wrapper {
       .left {
+        border-radius: 1rem 1rem 1rem 25%;
         grid-column: span 2;
       }
       .right {

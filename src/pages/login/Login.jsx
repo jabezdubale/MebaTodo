@@ -23,11 +23,9 @@ const Login = () => {
             <button className="loginbutton">LOGIN</button>
           </form>
           <div className="belowLogin">
-            {/* <img src={firstLine} className="firstLine" /> */}
             <hr />
             <div className="or">OR</div>
             <hr />
-            {/* <img src={secondLine} className="secondLine" /> */}
           </div>
           <button className="signupbutton">SIGN UP</button>
         </div>
